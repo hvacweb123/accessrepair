@@ -1713,6 +1713,7 @@
   height: 50px; /* Adjust the height of the top bar */
 }
 
+
 .slanted-topbar::before {
   content: "";
   position: absolute;
@@ -1745,6 +1746,7 @@
   transform: translateY(-50%);
   color: white;
   font-size: 20px;
+  
 }
 
 .phone-number {
@@ -1843,9 +1845,10 @@
   }
   .phone-icon {
     position: absolute;
-    top: 50%;
+    top: 34%;
     left: 20px; /* Adjust the left position of the phone icon */
     transform: translateY(-50%);
+    transform: rotate(120deg);
     color: white;
     font-size: 16px;
   }
