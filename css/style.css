@@ -1689,7 +1689,7 @@
 @media (min-width: 406px) and (max-width: 570px) {
 
   .appointment {
-    height: 120vh;
+    height: 1050px;
   }
 }
 @media (min-width: 767px) {
@@ -1856,7 +1856,7 @@
     left: 60%; /* Starting from the end of the red section */
     width: 60%; /* 1/5 of the width */
     height: 100%;
-    background-color: #BE0506; /* Black color */
+    background-color: #0360aa; /* Black color */
     transform-origin: top right;
     transform: skewX(-30deg); /* Skew the section to create slant */
   }
